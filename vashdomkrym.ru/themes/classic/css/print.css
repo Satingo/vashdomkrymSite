@@ -1,0 +1,28 @@
+body{line-height:1.5;font-family:'PT Sans Narrow', Arial, sans-serif;color:#000;background:none;font-size:14px;}
+.container{background:none;}
+hr{background:#ccc;color:#ccc;width:100%;height:2px;margin:2em 0;padding:0;border:none;}
+hr.space{background:#fff;color:#fff;visibility:hidden;}
+h1, h2, h3, h4, h5, h6{font-family:'PT Sans Narrow', Arial, sans-serif;}
+code{font:.9em "Courier New", Monaco, Courier, monospace;}
+a img{border:none;}
+p img.top{margin-top:0;}
+blockquote{margin:1.5em;padding:1em;font-style:italic;font-size:.9em;}
+.small{font-size:.9em;}
+.large{font-size:1.1em;}
+.quiet{color:#999;}
+.hide{display:none;}
+a{text-decoration:underline;}
+a:link, a:visited{background:transparent;text-decoration:underline;}
+.top{vertical-align:top;}
+h1{font-size:24px;margin-bottom:15px;}
+h2{margin:0 0 10px 0;}
+ul{margin:0;}
+.logo{margin:0 !important;}
+.print .currency{color:#000;}
+.print .is_special_offer_block h3, .print .is_special_offer_block div{display:inline;}
+.print .is_special_offer_block div{margin-left:10px;}
+.print .column3{width:33%;}
+.print .column2{width:50%;}
+.print .column1{width:100%;}
+.print .grid-view table.items th{background:#666666 !important;}
+.print .grid-view table.items tr, .print .grid-view table.items tr.odd{background:#eeeeee !important;}

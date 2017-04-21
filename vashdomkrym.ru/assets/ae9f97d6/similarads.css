@@ -1,0 +1,37 @@
+#owl-similar-ads .item{
+    padding: 30px 0px;
+    margin: 10px;
+}
+.customNavigation{
+    text-align: center;
+}
+.customNavigation a{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.btn-similar-prev, .btn-similar-next {
+    background-color: #f3f3f3;
+    border: 0 solid #cccccc;
+    border-radius: 3px;
+    color: #3fbf79;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.similar-ads {padding-top: 15px;}
+.similar-ads .viewapartment-subheader {color: #000; text-transform: uppercase; font-family: 'PT Sans Narrow',Arial,sans-serif; font-size: 21px;}
+.similar-ads .similar-descr {font-weight: bold; padding-top: 3px;}
+.similar-ads .similar-price { font-size: 13px; color: #000; padding-top: 5px;}
+.similar-ads .similar-price .currency { color: #8c8c8c; font-size: 13px; }
+.similar-ads .similar-price .number { font-size: 15px; color: #000; }

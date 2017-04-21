@@ -1,0 +1,17 @@
+{
+    "name": "z_bodya/yii-chosen",
+    "description": "Anouther chosen extension, provides easy to use InputWidget",
+    "homepage": "https://bitbucket.org/z_bodya/yii-chosen",
+    "keywords": ["widget", "chosen", "ui"],
+    "type": "yii-extension",
+    "extra": {
+        "installer-name": "chosen"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Bogdan Savluk",
+            "email": "savluk.bogdan@gmail.com"
+        }
+    ]
+}

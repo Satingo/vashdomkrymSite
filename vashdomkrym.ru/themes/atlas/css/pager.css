@@ -1,0 +1,10 @@
+.pagination ul .hidden a {
+    color: #888888;
+    text-decoration: none !important;
+}
+.pagination ul .hidden a:hover {
+    color: #888888 !important;
+}
+.pagination ul .first, .pagination ul .last {
+    display: none;
+}

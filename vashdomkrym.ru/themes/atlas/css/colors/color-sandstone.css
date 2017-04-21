@@ -1,0 +1,173 @@
+#page { background-color: #FFFCF3 !important; }
+
+/* Верхнее меню */
+.line_header {
+    background: none repeat scroll 0 0 #FFBA58 !important;
+}
+
+.menu .header_menu li a:hover, .menu .header_menu li.active a {
+    background: none repeat scroll 0 0 #FFBA58 !important;
+    color: #ffffff !important;
+}
+
+.menu .header_menu li a:hover, .menu .header_menu li.active a,
+.menu .header_menu .sfHover > a {
+    background: #FFBA58 !important;
+    color: #ffffff !important;
+}
+
+.forma {
+    background: #FFBA58 !important;
+    color: #fff;
+}
+
+.pagination ul li a:hover, .pagination ul li.selected a {
+    background: none repeat scroll 0 0 #FFBA58 !important;
+    color: #fff;
+}
+
+#toTop {
+    background-color: #FFBA58 !important;
+    color: #ffffff;
+}
+
+.link_blue {
+    background-color: #FF4F00 !important;
+    color: #FFFFFF !important;
+}
+
+
+.filtr {
+    background-color: #FFBA58 !important;
+    box-shadow: 0 6px 4px -4px #222;
+}
+
+/* заголовок блока объявлений */
+.block .title_block a {
+    background: none repeat scroll 0 0 #FF8C58  !important;
+    color: #fff;
+}
+
+.breadcrumbs .path {
+    color: #FFBA58 !important;
+}
+
+.block_entries .title a {
+    color: #FFBA58 !important;
+}
+
+.block_entries .posted .date {
+    color: #FFBA58 !important;
+}
+
+.read_more {
+    background-color: #FF4F00 !important;
+    color: #FFFFFF !important;
+}
+
+.ui-widget-content {
+    border: 1px solid #FFBA58 !important;
+}
+
+.index-search-form .ui-widget-content {
+    border: 1px solid #FFFFFF !important;
+}
+
+.sf-menu li.sfHover ul {
+    background: none repeat scroll 0 0 #FFBA58 !important;
+}
+
+#userfilter ul li a:hover, #userfilter ul li.active a {
+    background-color: #eff4fa;
+    color: #FFBA58 !important;
+}
+#userfilter ul li a {
+    background-color: transparent;
+    color: #FFBA58 !important;
+}
+
+.button-blue {
+    background-color: #FF4F00 !important;
+    color: #FFBA58 !important;
+}
+
+.item .bron {
+    background-color: #FF4F00 !important;
+    color: #FFFFFF !important;
+}
+
+
+div.translate_button input, div.copylang_button input, #usermenu #navlist a {
+    background-color: #FFBA58 !important;
+    color: #FFFFFF !important;
+}
+
+#usermenu #navlist li.active a {
+    background-color: #FFFFFF !important;
+}
+
+/* таблица в личном кабинете */
+.grid-view table.items th {
+    background-color: #FFFFFF !important;
+    color: #000;
+}
+.grid-view table.items th, .grid-view table.items td {font-size: 0.9em; padding: 0.3em;}
+
+.grid-view table.items tr.odd {
+    background: #eff4fa none repeat scroll 0 0 !important;
+}
+
+.currency option {
+    background: #FFBA58 none repeat scroll 0 0 !important;
+}
+
+/* картинки - стрелки */
+.jcarousel-control-prev, .jcarousel-control-next, .hide_filtr, .jFlowNext, .jFlowPrev {
+    background-color: #FFBA58 !important;
+}
+
+#loading{ background-color: #FFBA58 !important; }
+
+#footer-links {background: none repeat scroll 0 0 #FFBA58 !important; color: #fff;}
+#footer, #footer-two-links {background: none repeat scroll 0 0 #FF8C58 !important; color: #fff;}
+#footer .copyright {color: #fff !important;}
+
+#mobnav-btn {
+    background-color: #FFBA58 !important;
+}
+
+.line_menu li a:hover, .line_menu li.active a {
+    background: #FFBA58 !important;
+}
+
+.line_menu li:hover ul{
+    background: #FFBA58 !important;
+}
+
+.ui-datepicker .ui-datepicker-header {background: #FFBA58 !important;}
+
+#cookie-bar .cb-enable {background:#FF733F  !important;}
+#cookie-bar .cb-enable:hover {background:#FFD285 !important;}
+
+@media screen and (max-width: 1024px) {
+    .header_menu {
+        background: none repeat scroll 0 0 rgb(8, 112, 112) !important;
+    }
+    .xpopdrop ul li {
+        background: #FFBA58 !important;
+    }
+    .xpopdrop ul li ul li {
+        background: #FFBA58 !important;
+    }
+    .xpopdroplast ul li {
+        background: #FFBA58 !important;
+    }
+    .xpopdroplast ul li ul li {
+        background: #FFBA58 !important;
+    }
+}
+@media screen and (max-width: 780px) {
+    ul.hide-780 {
+        background: none repeat scroll 0 0 rgb(8, 112, 112) !important;
+    }
+}

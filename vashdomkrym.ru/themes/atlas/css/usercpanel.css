@@ -1,0 +1,61 @@
+.usercpanel-left {
+    width: 200px;
+    float: left;
+}
+
+.usercpanel-right {
+    width: 760px;
+    float: left;
+}
+
+#usermenu ul {
+    padding:6px 3px 5px;
+    margin:0px;
+}
+
+#usermenu ul li {
+    display: block;
+}
+
+#usermenu ul li:hover {
+    text-decoration:none;
+}
+
+.profile-ava .qq-upload-list{
+    display: none;
+}
+
+#usermenu #navlist li {
+    height: 40px;
+}
+
+#usermenu #navlist a {
+    background-color: #00c0ff;
+    border: 0;
+    color: #fff;
+    font-family: 'PT Sans Narrow',Arial,sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 9px 15px 9px 15px;
+    margin: 7px 12px 0 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#usermenu #navlist li.active a {
+    background-color: #3278b4;
+}
+
+@media screen and (max-width: 1024px) {
+    .usercpanel-left {
+        float: inherit;
+        display: block;
+        width: 100%;
+    }
+
+    .usercpanel-right {
+        float: inherit;
+        display: block;
+        width: 100%;
+    }
+}

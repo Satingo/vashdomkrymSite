@@ -1,0 +1,70 @@
+ul#bookings, ul#bookings-db {list-style: none; padding: 0; margin: 0;}
+.status-save-success {color:#264409;}
+.status-save-error { color:#FF0000;}
+
+div.calendar-inner {margin-bottom: 30px; clear: both;}
+
+.calendarDescription {
+    padding: 5px 0 10px;
+}
+.calendarDescription div {
+    float: left;
+    margin: 0 5px;
+    position: relative;
+}
+.calendarDescriptionFree {
+    background: none repeat scroll 0 0 #d9ffd1;
+}
+.calendarDescriptionReserved, .calendarDescriptionFree {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
+.calendarDescriptionReserved, .ui-datepicker-calendar td.ui-state-active a {
+    background: none repeat scroll 0 0 #ffbec3;
+}
+
+.datepicker-calendarDescriptionReserved {
+	opacity: 1 !important;
+}
+
+.ui-state-default {
+	background: #d9ffd1;
+}
+
+.datepicker-calendarDescriptionReserved .ui-state-default {
+	background: #ffbec3 !important;
+	color: #000000 !important;
+}
+
+#booking_calendar th {background: none;}
+
+.bookings-save, .bookings-delete {
+    margin-left: 5px;
+    margin-top: -14px;
+}
+
+#booking_calendar table {padding: 0;}
+#booking_calendar table td {padding: inherit; width: inherit; line-height: inherit;}
+#booking_calendar table td:first-child {font-weight: normal;}
+.ui-datepicker.ui-datepicker-multi {width: auto !important;}
+
+
+
+@media screen and (max-width: 640px) {
+    .ui-datepicker-multi, .ui-datepicker-group {width:100% !important;}
+    .ui-datepicker-multi-2 .ui-datepicker-group{width:100% !important;}
+    .ui-datepicker-multi-3 .ui-datepicker-group {width:100% !important;}
+    .ui-datepicker-multi-4 .ui-datepicker-group {fwidth:100% !important;}
+}
+/*
+@media screen and (max-width: 480px) {
+    #booking_calendar table tr {
+        display: inline !important;
+        margin: 0 !important;
+    }
+
+    #booking_calendar table td {
+        display: table-row !important;
+    }
+}*/

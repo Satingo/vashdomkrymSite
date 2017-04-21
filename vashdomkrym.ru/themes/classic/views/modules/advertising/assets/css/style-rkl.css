@@ -1,0 +1,14 @@
+div.advert-postiion {float: left; width: 150px;}
+#imp_editor_box_Advert_html {width: 650px !important;}
+.advert-support-file {padding: 0 0 10px 0;}
+.rkl-blocks  {list-style-type: none; padding: 50px 0 0 0; margin: 0 0 10px;}
+.rkl-blocks>li {margin-bottom: 30px;}
+.rkl-blocks>li>ul {list-style-type: none;}
+.rkl-blocks-item {padding-left: 0;}
+.rkl-blocks-item>li {padding: 3px 0;}
+.rkl-blocks-top, .rkl-blocks-bottom {float: left;margin: 0;width: 960px;margin: 5px 0;}
+.rkl-blocks-top-center, .rkl-blocks-top-bottom, .rkl-blocks-bottom-center {overflow-x: hidden;}
+.rkl-blocks-top-left, .rkl-blocks-bottom-left {float: left;width: 470px;overflow-x: hidden;}
+.rkl-blocks-top-right, .rkl-blocks-bottom-right { float: right; width: 470px; overflow-x: hidden;}
+#advert-admin .sorter {margin: 0 0 0 25px;}
+.rkl-blocks-top-center, .rkl-blocks-bottom-center {text-align: center;}
